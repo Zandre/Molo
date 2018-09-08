@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/iv_lesson"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/exercise_background"
+    tools:context="com.example.molo.A_multi"
+    tools:ignore="MergeRootFrame" >
+
+    <Chronometer
+        android:id="@+id/cm_multi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chronometer" />
+
+    <RatingBar
+        android:id="@+id/rb_multi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:isIndicator="true"
+        android:numStars="3"
+        android:rating="3" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tv_multi" >
+
+        <ImageView
+            android:id="@+id/iv_multi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_multi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/frameLayout1"
+        android:layout_marginTop="22dp"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/rb1_multi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/rb2_multi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/rb3_multi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/rb4_multi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/rb5_multi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RadioButton" />
+
+    </RadioGroup>
+
+    <ProgressBar
+        android:id="@+id/pb_multi"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rb_multi"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/tv_multi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pb_multi"
+        android:layout_marginTop="18dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Red"
+        android:textStyle="bold" />
+
+</RelativeLayout>

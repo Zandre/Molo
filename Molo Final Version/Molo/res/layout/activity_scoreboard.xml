@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_tutorialName"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/scoreboard_background"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_scoreboard_all"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:background="@drawable/dashboard_buttons"
+        android:text="All Results" />
+
+    <Button
+        android:id="@+id/btn_scoreboard_tuts"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_scoreboard_all"
+        android:layout_below="@+id/btn_scoreboard_all"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/dashboard_buttons"
+        android:text="Results per Tutorial" />
+
+    <Button
+        android:id="@+id/btn_scoreboard_mytuts"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_scoreboard_tuts"
+        android:layout_centerVertical="true"
+        android:background="@drawable/scoreboard_button"
+        android:text="My Results per Tutorial"
+        android:textColor="@color/White" />
+
+    <Button
+        android:id="@+id/btn_scoreboard_tops"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_scoreboard_mytuts"
+        android:layout_below="@+id/btn_scoreboard_mytuts"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/scoreboard_button"
+        android:text="My Top Scores"
+        android:textColor="@color/White" />
+
+</RelativeLayout>

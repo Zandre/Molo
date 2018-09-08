@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_tutorialName"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/scoreboard_listview_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_scoreboard_tuts_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Zorro"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Black"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/rb_scoreboard_tuts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tv_scoreboard_tuts_user"
+        android:background="@drawable/login_background"
+        android:isIndicator="true"
+        android:numStars="3"
+        android:rating="3" />
+
+    <TextView
+        android:id="@+id/tv_scoreboard_tuts_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_scoreboard_tuts_user"
+        android:layout_below="@+id/tv_scoreboard_tuts_user"
+        android:text="2014-08-24"
+        android:textColor="@color/Black" />
+
+    <TextView
+        android:id="@+id/tv_scoreboard_tuts_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_scoreboard_tuts_date"
+        android:layout_below="@+id/tv_scoreboard_tuts_date"
+        android:text="Time: 8"
+        android:textColor="@color/Black" />
+
+</RelativeLayout>

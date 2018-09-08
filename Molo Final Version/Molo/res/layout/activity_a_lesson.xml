@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tutoriallist_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/exercise_background"
+    tools:context="com.example.molo.A_lesson"
+    tools:ignore="MergeRootFrame" >
+
+    <Chronometer
+        android:id="@+id/cm_lesson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chronometer" />
+"
+
+    
+
+    <RatingBar
+        android:id="@+id/rb_lesson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:clickable="false"
+        android:isIndicator="true"
+        android:numStars="3" />
+
+    <ProgressBar
+        android:id="@+id/pb_lesson"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rb_lesson"
+        android:layout_alignParentLeft="true" />
+
+    <ImageButton
+        android:id="@+id/lesson_media_button"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/media_buttons"
+        android:src="@drawable/play" />
+
+    <TextView
+        android:id="@+id/tv_lesson_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lesson_media_button"
+        android:layout_alignParentLeft="true"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Red"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_lesson_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rb_lesson"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <FrameLayout
+        android:id="@+id/frame_lesson"
+        android:layout_width="170dp"
+        android:layout_height="155dp"
+        android:layout_below="@+id/tv_lesson_top"
+        android:layout_centerHorizontal="true" >
+
+        <ImageView
+            android:id="@+id/iv_lesson"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="36dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+    </FrameLayout>
+
+</RelativeLayout>

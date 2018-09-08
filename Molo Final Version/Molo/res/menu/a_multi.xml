@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item 
+        android:id="@+id/multi_help"
+        android:title="Help"
+        android:icon="@drawable/dark_ic_action_help"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:showAsAction="always"/>
+    
+    <item 
+        android:id="@+id/multi_next"
+        android:title="Next"
+        android:icon="@drawable/ic_action_forward"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:showAsAction="always"/>
+    
+    <item android:id="@+id/lesson_overflow"
+	    	android:icon="@drawable/ic_action_overflow"
+	    	android:orderInCategory="3"
+	    	app:showAsAction="always"
+			android:showAsAction="always">
+			<menu >
+			   <item
+		        android:id="@+id/multi_sounds"
+		        android:title="Sound Effects"
+			   	app:showAsAction="never"
+			    android:showAsAction="never"
+			    android:checkable="true"/>
+			</menu>
+	</item>
+</menu>

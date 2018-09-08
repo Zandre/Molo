@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/iv_lesson"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/exercise_background"
+    tools:context="com.example.molo.A_writing"
+    tools:ignore="MergeRootFrame" >
+
+    <RatingBar
+        android:id="@+id/rb_writing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:isIndicator="true"
+        android:numStars="3"
+        android:rating="3" />
+
+    <Chronometer
+        android:id="@+id/cm_writing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Chronometer" />
+
+    <TextView
+        android:id="@+id/tv_writing_sentence"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rb_writing"
+        android:text="Molo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Red"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/tv_writing_sentence"
+        android:layout_centerHorizontal="true" >
+
+        <ImageView
+            android:id="@+id/iv_writing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+    </FrameLayout>
+
+    <ProgressBar
+        android:id="@+id/pb_writing"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rb_writing"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/et_writing"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/frameLayout1"
+        android:ems="10" />
+
+"
+
+</RelativeLayout>

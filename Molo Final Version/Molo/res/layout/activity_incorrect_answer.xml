@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/exercise_background"
+    tools:context="com.example.molo.IncorrectAnswer"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/tv_question1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/frameLayout1"
+        android:text="Question 1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv_correct_answer_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_question1"
+        android:text="correct answer 1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Navy" />
+
+    <TextView
+        android:id="@+id/tv_your_answer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_correct_answer_1"
+        android:text="your answer 1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Red" />
+
+    <TextView
+        android:id="@+id/tv_incorrect_answer_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="0"
+        android:textSize="50sp" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/tv_incorrect_answer_time"
+        android:layout_centerHorizontal="true" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/unhappy" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_question2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_your_answer1"
+        android:text="Question 2"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv_correct_answer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_question2"
+        android:text="correct answer 2"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Navy" />
+
+    <TextView
+        android:id="@+id/tv_your_answer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_correct_answer2"
+        android:text="your answer 2"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Red" />
+
+    <TextView
+        android:id="@+id/tv_question3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_your_answer2"
+        android:text="Question 3"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv_correct_answer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_question3"
+        android:text="correct answer 3"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Navy" />
+
+    <TextView
+        android:id="@+id/tv_your_answer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_correct_answer3"
+        android:text="your answer 3"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Red" />
+
+    <TextView
+        android:id="@+id/tv_question4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_your_answer3"
+        android:text="Question 4"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv_correct_answer4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_question4"
+        android:text="correct answer 4"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Navy" />
+
+    <TextView
+        android:id="@+id/tv_your_answer4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_correct_answer4"
+        android:text="your answer 4"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Red" />
+
+</RelativeLayout>

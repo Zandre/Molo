@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_background"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/eT_R_userName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/eT_R_email"
+        android:layout_marginLeft="35dp"
+        android:ems="10"
+        android:hint="User Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/eT_R_password"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/eT_R_userName"
+        android:layout_marginLeft="35dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/eT_R_email"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eT_R_userName"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/btn_R_register"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/login_button"
+        android:onClick="Login"
+        android:text="Register" />
+
+    <RadioGroup
+        android:id="@+id/rd_login_NativeLanguae"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_R_register"
+        android:layout_alignLeft="@+id/eT_R_password"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="English" />
+
+        <RadioButton
+            android:id="@+id/rb_isixhosa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="isiXhosa" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/register_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eT_R_password"
+        android:layout_below="@+id/eT_R_password"
+        android:text="Show password" />
+
+</RelativeLayout>

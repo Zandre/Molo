@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+      
+    <item android:id="@+id/dashboard_sync"
+			android:icon="@drawable/dark_ic_action_refresh"
+			android:title="@string/sync"
+			android:orderInCategory="1"
+			app:showAsAction="always"
+			android:showAsAction="always"/>
+
+	<item android:id="@+id/dashboard_profile"
+	    	android:icon="@drawable/dark_ic_action_person"
+	    	android:title="@string/profile"
+	    	android:orderInCategory="2"
+	    	app:showAsAction="always"
+	    	android:showAsAction="always"/>
+	
+	<item android:id="@+id/dashboard_overflow"
+	    	android:icon="@drawable/ic_action_overflow"
+	    	android:orderInCategory="3"
+	    	app:showAsAction="always"
+			android:showAsAction="always">
+			<menu >
+			    <item android:id="@+id/dashboard_leave"
+	    		android:title="@string/log_out"
+	    		app:showAsAction="never"
+	    		android:showAsAction="never"/>
+			</menu>
+	</item>
+	    	
+</menu>

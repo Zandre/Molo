@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">Molo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_profile">Profile</string>
+    <string name="title_activity_register_user">RegisterUser</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_scoreboard">Scoreboard</string>
+    <string name="title_activity_profile">My Profile</string>
+    <string name="name">Name:</string>
+    <string name="highest">Highest Tutorial Completed:</string>
+    <string name="email">Email:</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="title_activity_a_voice">Voice Exercise</string>
+    <string name="title_activity_a_witing">Writing Exercise</string>
+    <string name="title_activity_a_match">Match Exercise</string>
+    <string name="title_activity_a_multi">Multi Choice Exercise</string>
+    <string name="writingE">Writing Exercise</string>
+    <string name="voiceE">Voice Exercise</string>
+    <string name="multiE">Multiple Choice Exercise</string>
+    <string name="matchE">Match Exercise</string>
+    <string name="next">Next</string>
+    <string name="title_activity_a_lesson">Lesson</string>
+    <string name="exercise">Exercise</string>
+    <string name="title_activity_tutorial_list">List of Tutorials</string>
+    <string name="title_activity_scoreboard_results">All Results</string>
+    <string name="title_activity_scoreboard_tutorial_list">Tutorial List</string>
+    <string name="title_activity_scoreboard_tutorial_results">Results Per Tutorial</string>
+    <string name="title_activity_scoreboard_my_tutorial_results">My Results Per Tutorial</string>
+    <string name="title_activity_scoreboard_top_scores">Top Scores</string>
+    <string name="profile">My Profile</string>
+    <string name="sync">Synchronize</string>
+    <string name="log_out">Log out</string>
+    <string name="save">Save</string>
+    <string name="title_activity_new_scoreboard">NewScoreboard</string>
+    <string name="title_activity_all_results">AllResults</string>
+    <string name="title_activity_incorrect_answer">IncorrectAnswer</string>
+
+</resources>
